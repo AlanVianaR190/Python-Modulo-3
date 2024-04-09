@@ -40,7 +40,7 @@ def resumo(valor, taxaA=0, taxaD=0 ):
     print(f"\t\t\tPreço Analisado: \t\t\t{moeda(valor)}")
     print(f"\t\t\tMetade do Valor: \t\t\t{metade(valor, True)}")
     print(f"\t\t\tDobro do Valor: \t\t\t{dobro(valor, True)}")
-    print(f"\t\t\tAumento de 15%: \t\t\t{aumentar(valor, taxaA, True)}")
-    print(f"\t\t\tDesconto de 10%: \t\t\t{diminuir(valor,taxaD, True)}")
+    print(f"\t\t\tAumento de {taxaA}%: \t\t\t{aumentar(valor, taxaA, True)}")
+    print(f"\t\t\tDesconto de {taxaD}%: \t\t\t{diminuir(valor,taxaD, True)}")
     print("---"*20)
 
